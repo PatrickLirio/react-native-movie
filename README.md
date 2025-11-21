@@ -29,7 +29,7 @@ Follow these steps to get the project up and running on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone git@github.com:PatrickLirio/react-native-movie.git
     cd react-native-movie
     ```
 
