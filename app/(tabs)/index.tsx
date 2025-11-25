@@ -30,10 +30,10 @@ export default function Index() {
         <ActivityIndicator
         size="large"
         color="#000ff"
-        className="mt-10 self-center"
+        className="mt-10 self-center "
         />
       ) : moviesError ? (
-        <Text>
+        <Text className="text-red-500 text-center mt-10">
           Error: {moviesError?.message}
         </Text>
       ) : (
